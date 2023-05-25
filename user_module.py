@@ -17,7 +17,16 @@ def var2(self):
 
 # print the result of the inputs
 '''addition'''
+def sum(self, sum):
+    print("The sum of your input is: ", sum)
 '''subtraction'''
+def difference(self, difference):
+    print("The difference of your input is: ", difference)
 '''multiplication'''
+def product(self, product):
+    print("The product of your input is: ", product)
 '''division'''
+def quotient(self, quotient):
+    print("The quotient of your input is: ", quotient)
+    
 # once again, ask the user if want to try again or not
