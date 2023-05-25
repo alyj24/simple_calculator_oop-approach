@@ -8,3 +8,6 @@ print("~" * 45)
 # pseudocode
 # create the class of user interface
 # create another class for the calculator
+
+# greetings
+print("Great Day, a precious well-being!")
