@@ -27,29 +27,34 @@ def simple_app_calculator():
         var1 = interaction.var1()
         var2 = interaction.var2()
     # execute the recognized chosen operation
-    if selection == "+":
-        sum = program.__add__(var1, var2)
-        interaction.sum(sum)
-    elif selection == "-":
-        difference = program.__subtract__(var1, var2)
-        interaction.difference(difference)
-    elif selection == "*":
-        product = program.__multiply__(var1, var2)
-        interaction.product(product)
-    elif selection == "/":
-        quotient = program.__divide__(var1, var2)
-        interaction.quotient(quotient)
-    else:
-        print("Oh no! There must be a problem in your input to be invalid.")
+        if selection == "+":
+           sum = program.__add__(var1, var2)
+           interaction.sum(sum)
 
-    while True:
-        option = interaction.retry()
-        if option == "yes, indeed":
-            return simple_app_calculator()
-        elif option == "already satisfied"
-            print(("Thank you so much!")
+        elif selection == "-":
+           difference = program.__subtract__(var1, var2)
+           interaction.difference(difference)
+
+        elif selection == "*":
+            product = program.__multiply__(var1, var2)
+            interaction.product(product)
+
+        elif selection == "/":
+            quotient = program.__divide__(var1, var2)
+            interaction.quotient(quotient)
         else:
-            exit()
+             print("Oh no! There must be a problem in your input to be invalid.")
+
+        while True:
+             option = interaction.retry()
+             if option == "yes, indeed":
+                return simple_app_calculator()
+
+             elif option == "already satisfied":
+                   print("Thank you so much!")
+
+             else:
+                   exit()
 
     except ValueError:
         print("Oops! Take a look back for a second, there must be a problem.")
