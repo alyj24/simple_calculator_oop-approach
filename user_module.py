@@ -14,4 +14,6 @@ def var1(self):
 def var2(self):
     var2 = float(input("Enter your second variable number: "))
     return var2
+
+# print the result of the inputs.
 # once again, ask the user if want to try again or not
