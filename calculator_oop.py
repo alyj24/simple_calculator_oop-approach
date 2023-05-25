@@ -13,3 +13,8 @@ print("~" * 45)
 print("Great Day, a precious well-being!")
 
 # import the python files from the module created
+from user_module import UserInterface
+from calculator_app import SimpleAppCalculator
+
+program = SimpleAppCalculator()
+interaction = UserInterface()
