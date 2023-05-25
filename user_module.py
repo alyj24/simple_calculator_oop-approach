@@ -31,5 +31,5 @@ class UserInterface:
 
 # once again, ask the user if want to try again or not
     def retry (self):
-        option = input("\033[92mNice choice of your operation and numbers! Do you want to try again? (yes, indeed/already satisfied): ")
+        option = input("\033[93mNice choice of your operation and numbers! Do you want to try again? (yes, indeed/already satisfied): ")
         return option

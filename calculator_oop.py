@@ -51,7 +51,7 @@ def simple_app_calculator():
                 return simple_app_calculator()
 
              elif option == "already satisfied":
-                   print("Thank you so much!")
+                   print("\033[95mThank you so much!")
 
              else:
                    exit()
