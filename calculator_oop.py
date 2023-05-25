@@ -20,3 +20,7 @@ program = SimpleAppCalculator()
 interaction = UserInterface()
 
 # implement the program
+def simple_app_calculator():
+    # use try and except function
+    # execute the recognized chosen operation
+    
