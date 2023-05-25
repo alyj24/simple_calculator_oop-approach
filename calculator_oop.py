@@ -22,5 +22,8 @@ interaction = UserInterface()
 # implement the program
 def simple_app_calculator():
     # use try and except function
+    try:
+        selection = interaction.basic_math_operations()
+        var1 = interaction.var1()
+        var2 = interaction.var2()
     # execute the recognized chosen operation
-    
