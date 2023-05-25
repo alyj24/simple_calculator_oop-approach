@@ -42,5 +42,14 @@ def simple_app_calculator():
     else:
         print("Oh no! There must be a problem in your input to be invalid.")
 
+    while True:
+        option = interaction.retry()
+        if option == "yes, indeed":
+            return simple_app_calculator()
+        elif option == "already satisfied"
+            print(("Thank you so much!")
+        else:
+            exit()
+            
     except ValueError:
         print("Oops! Take a look back for a second, there must be a problem.")
