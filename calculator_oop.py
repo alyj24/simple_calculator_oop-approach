@@ -50,6 +50,8 @@ def simple_app_calculator():
             print(("Thank you so much!")
         else:
             exit()
-            
+
     except ValueError:
         print("Oops! Take a look back for a second, there must be a problem.")
+
+simple_app_calculator()
