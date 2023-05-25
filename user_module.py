@@ -28,7 +28,7 @@ def product(self, product):
 '''division'''
 def quotient(self, quotient):
     print("The quotient of your input is: ", quotient)
-    
+
 # once again, ask the user if want to try again or not
 def retry(self):
     option = input("Nice choice of your operation and numbers! Do you want to try again? (yes, indeed/already satisfied): ")
