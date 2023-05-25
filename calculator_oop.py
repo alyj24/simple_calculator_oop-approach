@@ -1,7 +1,7 @@
 print("Assignment 7".center(45, "="))
-print("~" * 45)
-print("CMPE-103-MODULE-4-APPLYING-THE CONCEPT-OF-OOP")
-print("~" * 45)
+print("\033[95m~" * 45)
+print("\033[94mCMPE-103-MODULE-4-APPLYING-THE CONCEPT-OF-OOP")
+print("\033[95m~" * 45)
 
 # redo the creation of a simple app calculator program with the concept of OOP.
 
@@ -10,7 +10,7 @@ print("~" * 45)
 # create another class for the calculator
 
 # greetings
-print("Great Day, a precious well-being!")
+print("\033[93mGreat Day, a precious well-being!")
 
 # import the python files from the module created
 from user_module import UserInterface
@@ -43,7 +43,7 @@ def simple_app_calculator():
             quotient = program.__divide__(var1, var2)
             interaction.quotient(quotient)
         else:
-             print("Oh no! There must be a problem in your input to be invalid.")
+             print("\033[93mOh no! There must be a problem in your input to be invalid.")
 
         while True:
              option = interaction.retry()
@@ -57,6 +57,6 @@ def simple_app_calculator():
                    exit()
 
     except ValueError:
-        print("Oops! Take a look back for a second, there must be a problem.")
+        print("\033[92mOops! Take a look back for a second, there must be a problem.")
 
 simple_app_calculator()
